@@ -8,22 +8,30 @@ body {
 }
 
 .mySlides {
-  display: none
+  vertical-align: middle;
+  padding: 3px;
+  display: table;
 }
 
 /* cropped vertical photos */
 img {
   vertical-align: middle;
-  max-width: 60%;
-  max-height: 50%;
+  horizontal-align: middle;
+  width: 100%;
+  height: 100%;
   overflow: hidden;
+  display: table;
+  margin: auto;
 }
 
 /* Slideshow container */
 .slideshow-container {
-  max-width: 1000px;
+  width: 500px;
+  height: 500px;
   position: relative;
   margin: auto;
+  background-color: #eee;
+  display: table;
 }
 
 /* Next & previous buttons */
@@ -62,15 +70,6 @@ img {
   bottom: 8px;
   width: 100%;
   text-align: center;
-}
-
-/* Number text (1/3 etc) */
-.numbertext {
-  color: #f2f2f2;
-  font-size: 12px;
-  padding: 8px 12px;
-  position: absolute;
-  top: 0;
 }
 
 /* The dots/bullets/indicators */
