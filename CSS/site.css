@@ -7,8 +7,8 @@ body.custom-background {
 }
 
 #masthead {
-    background-image: url('../Media/MainStreet/mainstreet3.jpg');
-    background-position: center center;
+    background-image: url('../Media/background.jpg');
+    background-position: 50% 35%;
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -16,4 +16,18 @@ body.custom-background {
 html {
     margin-top: 32px !important;
     margin: auto;
+}
+
+.site-title {
+    -webkit-text-stroke: 2px black;
+    -webkit-text-fill-color: white;
+    -webkit-animation: fill 0.5s infinite alternate;
+}
+
+#shows {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  -webkit-text-fill-color: white;
 }
