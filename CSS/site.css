@@ -1,0 +1,53 @@
+.site-description {
+    color: #ffffff;
+}
+
+body.custom-background {
+    background-color: #222222;
+}
+
+#masthead {
+    background-image: url('../Media/background.jpg');
+    background-position: 50% 35%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 5px solid grey;
+}
+
+html {
+    margin-top: 0px !important;
+    margin: auto;
+}
+
+.site-title {
+    -webkit-text-stroke: 3px white;
+    -webkit-text-fill-color: darkblue;
+}
+
+#shows {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  -webkit-text-fill-color: white;
+}
+
+#showtime {
+  max-width: 1500px;
+  max-height: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  border: 5px solid lightblue;
+}
+
+th {
+  background-color: lightblue;
+}
+
+#uks {
+  font-size: 8.5rem;
+}
+
+#upcoming {
+  border-bottom: 0px solid white;
+}
