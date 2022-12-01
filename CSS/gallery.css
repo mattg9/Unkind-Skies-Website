@@ -29,7 +29,7 @@ img {
 /* Slideshow container */
 .slideshow-container {
   width: 100vw;
-  height: 100vh;
+  height: 50vh;
   position: relative;
   margin: auto;
   display: table;
