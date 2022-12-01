@@ -19,6 +19,8 @@ img {
   horizontal-align: middle;
   width: 100%;
   height: 100%;
+  aspect-ratio: 1.05;
+  object-fit: contain;
   overflow: hidden;
   display: table;
   margin: auto;
@@ -30,7 +32,6 @@ img {
   height: 500px;
   position: relative;
   margin: auto;
-  background-color: #eee;
   display: table;
 }
 
