@@ -28,6 +28,7 @@ html {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  font-size: 6vw;
   text-align: center;
   -webkit-text-fill-color: white;
 }
@@ -45,7 +46,7 @@ th {
 }
 
 #uks {
-  font-size: 8.5rem;
+  font-size: 10vw;
 }
 
 #upcoming {
