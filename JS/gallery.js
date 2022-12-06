@@ -1,3 +1,21 @@
+$('#slider').on('touchstart', function(event) {
+  const xClick = event.originalEvent.touches[0].pageX;
+
+  $(this).on('touchmove', function(event) {
+    const xMove = event.originalEvent.touches[0].pageX;
+    const sensitivityInPx = 5;
+
+    if (Math.floor(xClick - xMove) > sensitivityInPx) {
+      plusSlides(1);
+      $(this).off('touchmove');
+    } 
+    else if (Math.floor(xClick - xMove) < -sensitivityInPx) {
+      plusSlides(-1);
+      $(this).off('touchmove');
+    }
+  });
+});
+
 let slideIndex = 1;
 showSlides(slideIndex);
 

@@ -17,8 +17,8 @@ body {
 img {
   vertical-align: middle;
   horizontal-align: middle;
-  width: 100%;
-  height: 100%;
+  width: 100dvw;
+  height: 75dvl;
   aspect-ratio: 1.05;
   object-fit: contain;
   overflow: hidden;
